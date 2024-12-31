@@ -1,0 +1,6 @@
+data 
+.vscode
+env
+__pycache__/
+data/processed/
+reports/plots/
