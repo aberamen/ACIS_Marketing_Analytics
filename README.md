@@ -3,6 +3,9 @@
 # Project Overview
 This project aims to optimize marketing strategies for AlphaCare Insurance Solutions (ACIS) by analyzing historical insurance claim data. The analysis involves understanding key metrics, testing hypotheses, and building predictive models to identify low-risk clients for premium reduction.
 
+
+
+
 # Folder Structure
 ACIS_Marketing_Analytics/
 ├── data/
@@ -25,10 +28,26 @@ ACIS_Marketing_Analytics/
 └── dvc.yaml                # DVC pipeline configuration
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 # Project Tasks
 # Task 1: Git and GitHub, EDA & Stats
+
+
 Objectives:
+
 Set up a GitHub repository with branches for task management.
+
 Perform exploratory data analysis (EDA) to understand the dataset and gain insights.
 Key Steps:
 Summarized data using descriptive statistics.
@@ -84,14 +103,22 @@ cd ACIS_Marketing_Analytics
 Run Hypothesis Testing
 
 python src/hypothesis_testing/hypothesis_tests.py
+
 Run Modeling
 
 python src/modeling/model_building.py
+
 View Data Versioning
+
+
 Add new data to DVC:
 
 dvc add data/raw/new_data.csv
+
+
 Push data to remote:
+
+
 
 dvc push
 
